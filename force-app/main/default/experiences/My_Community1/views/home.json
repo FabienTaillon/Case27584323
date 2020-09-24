@@ -10,21 +10,32 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
-        "richTextValue" : "Replace this text with content of your own."
-      },
-      "componentName" : "forceCommunity:richTextInline",
-      "id" : "94fcf7e8-3074-4df6-a0ac-e308b924b980",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
-      "componentAttributes" : {
-        "richTextValue" : "Replace this text with content of your own."
+        "richTextValue" : "<p>My content that can't be translated</p>"
       },
       "componentName" : "forceCommunity:richTextInline",
       "id" : "c211edf4-cd7a-4f81-8990-8ded58779aca",
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p>My english content</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "afe0a423-b524-44f0-9b4a-e85d33fd8d3a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "fr" : "dcb293fe-89ec-4d52-9560-b1344668a602"
+      },
+      "renditions" : [ {
+        "id" : "dcb293fe-89ec-4d52-9560-b1344668a602",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p>Mon contenu français</p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
       "type" : "component"
     } ],
     "id" : "50fa26c7-c908-4c7e-8ab0-013c3743e2aa",
